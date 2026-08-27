@@ -1,0 +1,13 @@
+[boot]
+systemd=true
+
+[user]
+default=__LINUX_USERNAME__
+
+[network]
+generateHosts=true
+generateResolvConf=true
+
+[interop]
+enabled=true
+appendWindowsPath=false

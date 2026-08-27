@@ -1,0 +1,11 @@
+[wsl2]
+memory=__WSL_MEMORY__
+processors=__WSL_PROCESSORS__
+swap=__WSL_SWAP__
+networkingMode=mirrored
+dnsTunneling=true
+firewall=true
+
+[experimental]
+autoMemoryReclaim=dropCache
+sparseVhd=true
